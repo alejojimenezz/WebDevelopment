@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            body {
+                background-image: url('img_girl.jpeg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>IMAGES
+            <br>
+            <img src="pic_trulli.jpeg" alt="Italian Trulli">
+            <img src="img_girl.jpeg" alt="Girl in a jacket">
+            <img src="img_chania.jpeg" alt="Flowers in Chania">
+            <img src="img_girl.jpeg" alt="Girl in a jacket" 
+            style="width:500px;height:600px;">
+            <img src="img_girl.jpeg" alt="Girl in a jacket" 
+            width="500" height="600">
+            <img src="https://www.w3schools.com/images/w3schools_green.jpg" 
+            alt="W3Schools.com">
+
+            <p><img src="smiley.gif" alt="Smiley face" 
+            style="float:right;width:42px;height:42px;">
+            The image will float to the right of the text.</p>
+
+            <p><img src="smiley.gif" alt="Smiley face" 
+            style="float:left;width:42px;height:42px;">
+            The image will float to the left of the text.</p>
+        </h1>
+        <h1>MAPS
+            <!-- MAPS
+             Image with clickable areas
+            -->
+            <br>
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+            <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" onclick="computerFunction()">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm" onclick="phoneFunction()">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm" onclick="coffeeFunction()">
+            </map>
+
+            <script>
+                function computerFunction() {
+                    alert("You clicked the computer")
+                }
+                function phoneFunction() {
+                    alert("You clicked the phone")
+                }
+                function coffeeFunction() {
+                    alert("You clicked the coffee")
+                }
+            </script>
+        </h1>
+        <h1> BACKGROUND IMAGE
+            <p style="background-image: url('img_girl.jpg');"></p>
+        </h1>
+    </body>
+</html>

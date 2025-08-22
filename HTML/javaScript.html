@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>My first JavaScript</h1>
+
+        <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+
+        <p id="demo"></p>
+
+        <p>JavaScript can change the content of an HTML element:</p>
+
+        <button type="button" onclick="myFunction1()">
+            Click Me! to change content
+        </button>
+
+        <p id="demo2">This is a demonstration.</p>
+
+        <script>
+        function myFunction1() { 
+        document.getElementById("demo2").innerHTML = "Hello JavaScript!";
+        }
+        </script>
+
+        <p id="demo3">JavaScript can change the style of an HTML element.</p>
+
+        <script>
+        function myFunction2() {
+        document.getElementById("demo3").style.fontSize = "25px"; 
+        document.getElementById("demo3").style.color = "red";
+        document.getElementById("demo3").style.backgroundColor = "yellow";        
+        }
+        </script>
+
+        <button type="button" onclick="myFunction2()">
+            Click Me! to change style
+        </button>
+
+        <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+    </body>
+</html>
