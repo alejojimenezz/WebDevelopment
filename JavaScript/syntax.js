@@ -8,3 +8,5 @@ y = 6;
 
 // Operators (+-*/)
 let z = x + y;
+
+console.log(z);
