@@ -12,8 +12,15 @@ y = 6;
 
 // Operators (+-*/)
 let z = x + y;
+z = x * (y + 1);
 
 console.log(z);
+
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
+
+console.log(text3);
 
 const PI = 3.141592653589793;
 // PI = 3.14 -> Outputs error
