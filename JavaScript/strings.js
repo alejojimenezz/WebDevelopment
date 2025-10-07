@@ -12,3 +12,8 @@ let answer3 = 'He is called "Johnny"';
 let text2 = `He's often called "Johnny"`;
 
 let text3 = "We are the so-called \"Vikings\" from the north.";
+let char = text3.charAt(0);
+let charCode = text3.charCodeAt(0);
+let code = text3.codePointAt(0);
+let index = text3.indexOf("Vikings");
+let index = text3.lastIndexOfndexOf("Vikings");
