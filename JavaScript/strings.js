@@ -16,4 +16,4 @@ let char = text3.charAt(0);
 let charCode = text3.charCodeAt(0);
 let code = text3.codePointAt(0);
 let index = text3.indexOf("Vikings");
-let index = text3.lastIndexOfndexOf("Vikings");
+let index2 = text3.lastIndexOfndexOf("Vikings");
