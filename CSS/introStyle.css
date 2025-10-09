@@ -2,6 +2,13 @@
 
 body {
     background-color: lightblue;
+    /*backgound-image: url("file.gif");
+    background-repeat: repeat-x;
+    background-position: right top;
+    background-attachment: fixed;
+    =
+    background: lightblue url("file.png") no-repeat right top;*/
+    opacity: 0.3;
 }
 
 p {
