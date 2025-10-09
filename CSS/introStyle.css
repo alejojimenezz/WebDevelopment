@@ -25,3 +25,10 @@ p.center {
     color: blue;
     text-align: center;
 }
+
+#borderpara {
+    border-width: thick thin; /*Each border can have different width*/
+    border-style: dotted solid; /*Each border can have different style*/
+    border-color: red blue; /*Each border can have different color*/
+    border-radius: 5px;
+}
